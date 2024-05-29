@@ -6,8 +6,13 @@
           }
     }
 }
+body{
+margin-top: 70px;
+background-color: #B3B4BD;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .div1{
-    background-color: darkseagreen;
+    background-color: #050A44;
     margin: auto;
     border: 1px solid green;
     width: fit-content;
@@ -15,16 +20,19 @@
     height: fit-content;
     justify-items: center;
     padding: 10px 100px 100px;
+    border-radius: 30px;
 }
 .typetodo{
     height: 50px;
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-bottom: 20px;
 }
 input{
     border-radius: 10px;
     height: 30px;
+    
 }
 .btn1{
     height: 20px;
@@ -36,6 +44,7 @@ button:hover{
 }
 .div2{
     display: flex;
+    gap: 20px;
 }
 .showtodo{
     background-color: gainsboro;
@@ -45,6 +54,7 @@ button:hover{
     height: fit-content;
     padding: 5px;
      display: none; 
+     min-width: 100px;
 }
 .tododiv{
     background-color: gainsboro;
