@@ -1,0 +1,61 @@
+@keyframes enterbtn {
+    from{
+        transform: translateX(0);
+        to {
+            transform: translateX(100px);
+          }
+    }
+}
+.div1{
+    background-color: darkseagreen;
+    margin: auto;
+    border: 1px solid green;
+    width: fit-content;
+    display: grid;
+    height: fit-content;
+    justify-items: center;
+    padding: 10px 100px 100px;
+}
+.typetodo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+}
+.btn1{
+    height: 20px;
+    position: relative;
+}
+button:hover{
+    animation: enterbtn 4s ease-in-out 0.2s 2 direction fill-mode;
+    background-color: rgb(174, 196, 174);
+}
+.div2{
+    display: flex;
+}
+.showtodo{
+    background-color: gainsboro;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 5px;
+     display: none; 
+}
+.tododiv{
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px groove black;
+}
+
+.btn2{
+    border-radius: 20px;
+    width: fit-content;
+    height: 20px;
+}
